@@ -59,9 +59,9 @@ impl Bank {
         }
     }
 
-    pub fn delete_account_id(&mut self, id: u64) {
-        self.accounts.remove(&id);
-    }
+    // pub fn delete_account_id(&mut self, id: u64) {
+    //     self.accounts.remove(&id);
+    // }
 
     pub fn deposit(&mut self, name: &str, amount: u64) {
         if let Some(account) = self.get_account(name) {

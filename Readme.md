@@ -25,23 +25,12 @@
     - Reject negative amounts
     - Error on insufficient funds
 
-🧪 5. Add Transaction History (Optional, More Advanced)
-
-Track a list of deposits/withdrawals per account
-
-    Store transaction timestamp, type (deposit/withdrawal), and amount
-
 🛠️ 6. Error Handling
-
-Create meaningful error messages for:
-
-Account not found
-
-Invalid amount
-
-    Insufficient funds
-
-    Use Result and Option appropriately
+- Create meaningful error messages for:
+- Account not found
+- Invalid amount
+    - Insufficient funds
+    - Use Result and Option appropriately
 
 🧼 7. CLI Interface (Simple)
 
