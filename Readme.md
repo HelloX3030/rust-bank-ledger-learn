@@ -11,13 +11,10 @@
 - Create a Bank struct that contains:
     - A HashMap mapping account IDs to Accounts
 
-💸 3. Implement Account Management
-
-Create new accounts
-
-View a list of all existing accounts
-
-    Get a single account's current balance
+## 💸 3. Implement Account Management
+- Create new accounts
+- View a list of all existing accounts
+- Get a single account's current balance
 
 💰 4. Implement Transactions
 
