@@ -1,23 +1,15 @@
-🧾 Bank Ledger (In-Memory) — Learning To-Do List
-✅ 1. Project Setup
+# 🧾 Bank Ledger (In-Memory) — Learning To-Do List
+## ✅ 1. Project Setup
+- Initialize a new Rust project (cargo new bank_ledger)
+    - Set up a simple CLI entry point in main.rs
 
-Initialize a new Rust project (cargo new bank_ledger)
-
-    Set up a simple CLI entry point in main.rs
-
-🧍 2. Model the Core Structs
-
-Define an Account struct with:
-
-Account ID (e.g., String or numeric)
-
-Balance (e.g., f64 or u64)
-
-    Optional: Account holder name or metadata
-
-Create a Bank struct that contains:
-
-        A HashMap mapping account IDs to Accounts
+## 🧍 2. Model the Core Structs
+- Define an Account struct with:
+- Account ID (e.g., String or numeric)
+- Balance (e.g., f64 or u64)
+    - Optional: Account holder name or metadata
+- Create a Bank struct that contains:
+    - A HashMap mapping account IDs to Accounts
 
 💸 3. Implement Account Management
 
