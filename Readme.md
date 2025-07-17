@@ -16,21 +16,14 @@
 - View a list of all existing accounts
 - Get a single account's current balance
 
-💰 4. Implement Transactions
-
-Deposit to an account
-
-Handle invalid account ID
-
-    Reject negative deposit amounts
-
-Withdraw from an account
-
-Handle invalid account ID
-
-Reject negative amounts
-
-        Error on insufficient funds
+## 💰 4. Implement Transactions
+- Deposit to an account
+    - Handle invalid account ID
+    - Reject negative deposit amounts
+- Withdraw from an account
+    - Handle invalid account ID
+    - Reject negative amounts
+    - Error on insufficient funds
 
 🧪 5. Add Transaction History (Optional, More Advanced)
 
@@ -73,11 +66,3 @@ Add unique ID generation for accounts
 Pretty-print account summaries
 
     Add unit tests for Bank methods
-
-📚 Bonus Learning Ideas
-
-Use enum for transaction types
-
-Use lifetimes or references safely with borrowed data
-
-Refactor logic using traits if the project grows
